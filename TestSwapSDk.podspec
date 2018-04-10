@@ -111,5 +111,6 @@ Pod::Spec.new do |s|
 
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+s.swift_version = '4.0'
 
 end
