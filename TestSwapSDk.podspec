@@ -90,7 +90,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "TestSwapSDK", "TestSwapSDK/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -105,12 +104,12 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources    = "ThreeRingControl/*.mp3"
+
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
-s.swift_version = '4.0'
+
 
 end
